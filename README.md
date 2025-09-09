@@ -10,11 +10,14 @@ Authors: HydroTrace Team (Kevin De Vriendt, Georg Simhandl, Andreas Schuster)
 
 ---
 CIP: ?
-Title: ?
+Title: HydroTrace Water Allocation and Usage Recording Data Metadata Standard
 Category: ?
 Status: Proposed
 Authors:
-    - John Doe <john.doe@email.domain>
+    - Kevin De Vriendt <kevindevriendt@gmail.com>
+    - Georg Simhandl  <email@gmail.com>
+    - Andreas Schuster <email@gmail.com>
+
 Implementors: []
 Discussions:
     - https://github.com/cardano-foundation/CIPs/pull/?
