@@ -40,10 +40,19 @@ License: CC-BY-4.0
 -->
 
 ## Abstract
-<!-- A short (\~200 word) description of the proposed solution and the technical issue being addressed. -->
+This CIP proposes a metadata standard for recording water allocation and usage data on the Cardano blockchain. The schema enables consistent representation of information such as water rights, allocations, withdrawals, and consumption events. By standardizing how this data is published in transaction metadata, the proposal ensures interoperability between different applications, explorers, and compliance systems. The format is designed to be lightweight, flexible, and compatible with existing Cardano metadata practices. Its primary
+
 
 ## Motivation: why is this CIP necessary?
-<!-- A clear explanation that introduces the reason for a proposal, its use cases and stakeholders. If the CIP changes an established design then it must outline design issues that motivate a rework. For complex proposals, authors must write a Cardano Problem Statement (CPS) as defined in CIP-9999 and link to it as the `Motivation`. -->
+Current systems for tracking water allocation and usage are fragmented, inconsistent, and often siloed across jurisdictions and organizations. On Cardano, while transaction metadata can already encode arbitrary information, there is no standardized approach for representing water-related records. This lack of standardization makes it difficult for stakeholders to interpret or integrate water usage data across dApps, explorers, and compliance systems.
+
+A shared metadata schema would enable:
+- Governments and regulators to audit water allocations against usage in near real time.
+- Enterprises and utilities to demonstrate responsible water use and reporting.
+- dApps and sustainability platforms to integrate water data into broader ESG (Environmental, Social, Governance) reporting frameworks.
+- Communities and researchers to transparently access water use records in a verifiable, tamper-resistant format.
+
+By creating a common standard, this CIP reduces duplication of effort, improves data interoperability, and provides a foundation for scalable, blockchain-based water resource management.
 
 ## Specification
 <!-- The technical specification should describe the proposed improvement in sufficient technical detail. In particular, it should provide enough information that an implementation can be performed solely on the basis of the design in the CIP. This is necessary to facilitate multiple, interoperable implementations. This must include how the CIP should be versioned, if not covered under an optional Versioning main heading. If a proposal defines structure of on-chain data it must include a CDDL schema in its specification.-->
