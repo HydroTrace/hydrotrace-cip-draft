@@ -14,9 +14,9 @@ Title: HydroTrace Water Allocation and Usage Recording Data Metadata Standard
 Category: ?
 Status: Proposed
 Authors:
-    - Kevin De Vriendt <kevindevriendt@gmail.com>
-    - Georg Simhandl  <email@gmail.com>
-    - Andreas Schuster <email@gmail.com>
+    - Kev <email>
+    - Georg <email>
+    - Andreas <email>
 
 Implementors: []
 Discussions:
